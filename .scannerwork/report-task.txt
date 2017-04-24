@@ -1,0 +1,5 @@
+projectKey=EMS
+serverUrl=http://172.27.59.103:9000
+dashboardUrl=http://172.27.59.103:9000/dashboard/index/EMS
+ceTaskId=AVsaEUVE52afMSGtQHfP
+ceTaskUrl=http://172.27.59.103:9000/api/ce/task?id=AVsaEUVE52afMSGtQHfP
