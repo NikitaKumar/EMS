@@ -1,0 +1,15 @@
+{
+	"family": "cybage-alm-ems-tdf",
+	"containerDefinitions": [{
+        "image": "678196089095.dkr.ecr.us-east-2.amazonaws.com/cybage-alm/ems",
+        "name": "cybage-alm-ems-app",
+        "cpu": 10,
+        "memory": 300,
+        "memoryReservation": 128,
+        "essential": true,
+        "portMappings": [{
+            "containerPort": 8080,
+            "hostPort": 0
+		}]
+    }]
+}
